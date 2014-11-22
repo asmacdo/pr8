@@ -1,0 +1,10 @@
+server/pulp/server/webservices/controllers/permissions.py
+stdin:37:80: E501 line too long (87 > 79 characters)
+stdin:42:80: E501 line too long (95 > 79 characters)
+stdin:49:80: E501 line too long (90 > 79 characters)
+stdin:74:80: E501 line too long (82 > 79 characters)
+stdin:98:80: E501 line too long (82 > 79 characters)
+stdin:123:80: E501 line too long (82 > 79 characters)
+stdin:124:80: E501 line too long (91 > 79 characters)
+stdin:148:80: E501 line too long (82 > 79 characters)
+stdin:149:80: E501 line too long (96 > 79 characters)
