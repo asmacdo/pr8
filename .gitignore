@@ -52,3 +52,6 @@ docs/_build/
 
 # PyBuilder
 target/
+
+# PEP 8 errors
+tmp/
