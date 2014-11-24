@@ -20,6 +20,11 @@ for pr in repo.get_pulls():
     for fp in pr.get_files():
         resp = requests.get(fp.raw_url)
         with redirected(fp.filename.replace('/', '__')):
-            flake8.main.check_code(resp.content)
+            config = "flake8.cfg"
+            flake8_style = flake8.engine.get_style_guide(
+                config_file=config,
+                ignore=['.tox', '.docs/*']
+            )
+            flake8_style.input_file(None, lines=resp.content.splitlines(True))
 
     # Next filter out all lines that are not "additions"
