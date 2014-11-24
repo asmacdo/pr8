@@ -1,4 +1,3 @@
-docs/sphinx/user-guide/release-notes/2.4.x.rst
 stdin:1:3: E225 missing whitespace around operator
 stdin:1:3: E901 SyntaxError: invalid syntax
 stdin:1:5: E225 missing whitespace around operator
